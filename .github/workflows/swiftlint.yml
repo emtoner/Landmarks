@@ -14,8 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: |
-        brew install swiftlint && swiftlint
+      run: swiftlint
     - name: Run tests
-      run: |
-        brew install swiftlint && swiftlint
+      run: swiftlint
